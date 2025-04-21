@@ -1,0 +1,413 @@
+
+
+*{
+  box-sizing: border-box;
+}
+/* google fonts */
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* google fonts */
+/* custom css navigation bar start*/
+.logo{
+ width: 120px;
+
+}
+.img-size{
+  width: 80px;
+  height: 80px;
+}
+.nav-link:hover{
+  color: #fe8315;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+.nav-bg{
+  background-color: rgb(253, 251, 251);
+  color: black;
+}
+.navbar-titles{
+  border-bottom: 3px solid white;
+}
+.navbar-titles:hover{
+   border-bottom: 3px solid #fe8315;
+}
+.primary-color{
+  color: #fe8315;
+}
+.sc-color{
+  color: #fe8315;
+}
+.primary-color:hover{
+  color: black;
+}
+.secoundary-color{
+  color: black;
+}
+.secoundary-color:hover{
+  color: #fe8315;
+}
+.crasole-btn{
+ color:  black;
+ font-size: 120px ;
+}
+.form-outline{
+  width: 20rem;
+  height: 60px;
+  border-radius: 15px;
+}
+.nav-btn{
+  background-color: #fe8315;
+  color: black;
+  border-radius: 15px;
+  width: 130px;
+  font-weight: bold;
+  height: 60px;
+
+}
+.acc-btn{
+  background-color: #fe8315;
+  color: black;
+  border-radius: 5px;
+  width: 90px;
+  font-weight: bold;
+  height: 40px;
+  
+}
+.acc-btn:hover{
+  background-color: black;
+  color: white;
+  transition: 0.9s;
+
+
+}
+.nav-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+/* ########### navbar reponsive custom css start ########### */
+@media (max-width: 576px) {
+  .navbar-brand{
+    font-size: 20px;
+  }
+}
+/* ########### navbar reponsive custom css start ########### */
+
+
+/* custom css navigation bar start*/
+
+/* hero section custom styling start*/
+.hero-heading{
+  font-size: 4rem;
+}
+.HeroPragraph{
+  font-size: 20px;
+}
+
+.form-btn{
+  background-color: #fe8315;
+  color: white;
+  border-radius: 10px;
+  width: 370px;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 20px;
+
+}
+.form-btn:hover{
+  background-color: white;
+  color: black;
+}
+/* hero section custom styling start*/
+
+
+
+ 
+/* crasole section custom style end */
+
+
+/* sign up form styling */
+.login-heading{
+ color: #fe8315;
+}
+.login-right{
+  background-color: #f4f4f6;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.logn-left{
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  /* background-color: #f4f4f6; */
+
+
+}
+.input-height{
+  height: 60px;
+  background-color: #f4f4f6;
+}
+.msg-feild{
+  height: 200px;
+  background-color: #f4f4f6;
+}
+@media (max-width: 576px) {
+  .login-heading{
+    font-size: 20px;
+  }
+  .input-height{
+    height: 40px;
+  }
+  .nav-btn{
+    height: 40px;
+  }
+  .login-container{
+    padding: 10px;
+    margin-top: 10px;
+    background: black;
+  }
+}
+
+/* sign up form styling */
+
+/* Serives Pages custom styling start  */
+
+.s-card:hover{
+  cursor: pointer;
+  /* background-color: #f4f4f6; */
+  color: #fe8315;
+  background-color: black;
+  transition: 0.9s;
+ 
+
+}
+.bg-shade{
+  background-color: black;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  opacity: 0.6;
+
+}
+.p-icon{
+  font-size: 45px;
+  color: #fe8315;
+}
+
+.card-btn{
+  background-color: #fe8315;
+  color: black;
+  border-radius: 15px;
+  width: 130px;
+  font-weight: bold;
+  height: 50px;
+}
+.card-btn:hover{
+  background-color: black;
+  color: white;
+  
+
+}
+.recommended-services{
+  background-color: black;
+} 
+/* .brc-corner{
+  border-bottom-right-radius: 60px;
+}
+.blc-corner{
+  border-bottom-left-radius: 60px;
+}
+.btr-coner{
+  border-top-right-radius: 60px;
+}
+.btl-corner{
+  border-top-left-radius: 60px;
+} */
+
+/* card background imgages */
+.service-card-bg1{
+  background: url(./Pages/serviceimgs/ac.jpg);
+  background-size: cover;
+}
+.service-card-bg2{
+  background: url(./Pages/serviceimgs/sofa.jpg);
+  background-size: cover;
+  
+}
+.service-card-bg3{
+  background: url(./Pages/serviceimgs/sofa.jpg);
+  background-size: cover;
+  
+}
+
+.service-card-bg4{
+  background: url(./Pages/serviceimgs/carpet.jpg);
+  background-size: cover;
+}
+.service-card-bg5{
+  background: url(./Pages/serviceimgs/washingmachine.jpg);
+  background-size: cover;
+}
+
+.service-card-bg6{
+  background: url(./Pages/serviceimgs/microwave.jpg);
+  background-size: cover;
+}
+
+.service-card-bg7{
+  background: url(./Pages/serviceimgs/pest.jpg);
+  background-size: cover;
+} 
+
+.service-card-bg8{
+  background: url(./Pages/serviceimgs/refirigrator.jpg);
+  background-size: cover;
+}
+.service-card-bg9{
+  background: url(./Pages/serviceimgs/electriction.jpg);
+  background-size: cover;
+}
+.service-card-bg10{
+  background: url(./Pages/serviceimgs/curtun.jpg);
+  background-size: cover;
+}
+.service-card-bg11{
+  background: url(./Pages/serviceimgs/curtun.jpg);
+  background-size: cover;
+}
+.service-card-bg12{
+  background: url(./Pages/serviceimgs/despensor.jpg);
+  background-size: cover;
+
+  
+ 
+
+}
+
+
+
+
+/* Serives Pages custom styling end  */
+
+
+/* footer section styling start */
+.footer-img{
+   background: url('./images/footer.jpg');
+   background-size: cover;
+}
+/* .social-icons{
+  font-size: 25px;
+  color: white;
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 50%;
+} */
+
+.Social-icons{
+  font-size: 35px;
+  color: #f4f4f6;
+  padding: 10px;
+  border-radius: 50%;
+}
+.Social-icons:hover{
+ 
+  color: #fe8315;
+  padding:10px;
+  border-radius: 50%;
+  transition: 0.6;
+}
+
+ /* footer section styling End  */
+
+/* HomeSectonSecond Styling start  */
+.HomeSection-bg{
+  background-color: #f5f5f5;
+}
+/* HomeSectonSecond Styling start  */
+
+
+/* book now page cutom css */
+
+.radio-btn{
+  border: 2px solid black;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.radio-btn:hover{
+  background-color: #f89f51;
+  box-shadow: #fe8315;
+}
+.form-text-area{
+  height: 200px;
+  padding-top: 5px;
+}
+.order-form-btn{
+  background-color: #fe8315;
+  color: black;
+  height: 50px;
+  border-radius: 10px;
+
+}
+.order-form-btn:hover{
+  color: black;
+  background-color: white;
+  border: 2px solid #fe8315;
+}
+.order-form-input{
+  height: 50px;
+  border-radius: 10px;
+}
+
+
+
+
+/* Responsiveness  */
+@media (max-width: 576px) {
+  .main-heading{
+    font-size: 25px;
+  }
+  .main-paragraph{
+    font-size: 15px;
+  }
+  .herosection-title{
+    font-size: 25px;
+  }
+  .herosection-paragraph{
+    font-size: 15px;
+  }
+  .about-title{
+    font-size: 25px;
+  }
+  .about-section-paragraph{
+    font-size: 15px;
+  }
+  .contact-title{
+    font-size: 25px;
+  }
+  .contact-pargraph{
+    font-size: 15px;
+  }
+  .Social-icons{
+    font-size: 25px;
+    padding: 10px;
+  }
+  .hide-img{
+    display: none;
+  }
+  .s-card{
+
+  }
+}
